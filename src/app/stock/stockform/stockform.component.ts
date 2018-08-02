@@ -11,6 +11,7 @@ export class StockformComponent implements OnInit {
 
 
   stock: Stock;
+
   constructor(private router: Router, private routeInfo: ActivatedRoute, private stockService: StockService) { }
 
   ngOnInit() {
